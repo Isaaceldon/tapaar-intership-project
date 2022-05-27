@@ -1,3 +1,105 @@
-.presentaation{
-    background-image: url(../img/contactus-banner.png);
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.presentation img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    object-fit:cover;
+}
+
+.presentation{
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* border: 1px solid blue; */
+}
+a{
+    text-align: center;
+}
+.filter-project li{
+list-style: none;
+display: inline-block;
+height: 100%;
+flex: 1;
+}
+
+.filter-project li.active{
+   /* color:white;
+    background-color: #1308a4; */
+   
+    
+    }
+
+.filter-project {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    }
+
+.div-project{
+    border: 1px dashed blue;
+}
+
+.div-business{
+    height: 700px;
+    /* border: 1px solid orange; */
+}
+
+.div-business-image{
+    height: 100%;
+    margin: 25px auto;
+}
+
+.business-image{
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+}
+
+.div-business-texte{
+    /* border: 1px solid red; */
+    position: relative;
+    /* width: 80%; */
+    margin: auto;
+    height: 80%;
+    text-align: left;
+}
+
+.business-ul{
+    text-align: left;
+    margin: 50px 0px;
+}
+
+.business-ul li{
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.business-ul .business-inactive i{
+    font-size: 45px;
+    color: #1308a4;
+    opacity: 0.5;
+}
+
+.business-ul .business-active i{
+    font-size: 45px;
+    color: #1308a4;
+    opacity: 1;
+}
+
+.button-discover{
+    background-color: #1308a4;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    border: none;
 }

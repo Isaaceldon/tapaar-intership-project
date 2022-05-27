@@ -1,3 +1,7 @@
 .sercice-icon i{
     font-size: 50px;
 }
+
+.services .card{
+    border: 1px dashed blue;
+}

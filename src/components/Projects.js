@@ -48,6 +48,6 @@ const [projects, setProjects] = useState(
 )
 
   return projects.map((project)=>{
-      return <Project item = {project}/>
+      return <Project item_project = {project}/>
   })
 }
